@@ -283,7 +283,7 @@
                     </button>
                 </div>
 
-                <div class="hidden lg:flex flex-col">
+                <div class="flex flex-col">
                     <div class="aspect-[3/4] mb-4 overflow-hidden rounded-sm">
                         <img src="./photo (1).png" alt="Савина Наталья" class="w-full h-full object-cover text-center">
                     </div>
@@ -294,7 +294,7 @@
                     </button>
                 </div>
 
-                <div class="hidden lg:flex flex-col">
+                <div class="flex flex-col">
                     <div class="aspect-[3/4] mb-4 overflow-hidden rounded-sm">
                         <img src="./photo (2).png" alt="Зотова Гюзяль" class="w-full h-full object-cover">
                     </div>
@@ -305,7 +305,7 @@
                     </button>
                 </div>
 
-                <div class="hidden lg:flex flex-col">
+                <div class="flex flex-col">
                     <div class="aspect-[3/4] mb-4 overflow-hidden rounded-sm">
                         <img src="./photo (3).png" alt="Николаева Оксана" class="w-full h-full object-cover">
                     </div>
@@ -374,6 +374,129 @@
                     </button>
                     <p class="text-xs text-gray-400">Врач: <a href="#" class="text-[#00a3e0] hover:underline">Крятов Андрей Михайлович</a></p>
                 </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="w-full py-16 bg-white font-sans">
+    <div class="max-w-[1400px] mx-auto px-4">
+        
+        <div class="w-full lg:h-[400px]  bg-gradient-to-r from-[#00b5ad] to-[#007fb1] rounded-[20px] p-8 md:p-12 mb-20 text-white relative overflow-hidden">
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between mb-10 gap-6 mt-[40px]">
+                <h2 class="text-3xl md:text-4xl font-bold">Записаться на приём</h2>
+                <p class="text-sm md:text-base opacity-90 max-w-[250px]">
+                    Оставьте заявку и мы свяжемся с вами в ближайшее время
+                </p>
+            </div>
+
+            <form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+               
+                <div class="space-y-4">
+                    <select class="w-full bg-white text-gray-500 py-4 px-6 rounded-md outline-none appearance-none cursor-pointer">
+                        <option>Выберете направление</option>
+                    </select>
+                    <select class="w-full bg-white text-gray-500 py-4 px-6 rounded-md outline-none appearance-none cursor-pointer">
+                        <option>Выберете врача</option>
+                    </select>
+                </div>
+
+                <div class="space-y-4">
+                    <input type="text" placeholder="Ваше имя" class="w-full bg-white text-gray-800 py-4 px-6 rounded-md outline-none placeholder:text-gray-400">
+                    <input type="tel" placeholder="Ваш телефон" class="w-full bg-white text-gray-800 py-4 px-6 rounded-md outline-none placeholder:text-gray-400">
+                </div>
+
+               
+                <div class="flex flex-col justify-between">
+                    <button type="submit" class="w-full bg-[#00d1c1] text-white font-bold py-4 px-6 rounded-md shadow-lg">
+                        Оставить заявку
+                    </button>
+                    <div class="mt-4 flex items-start gap-3">
+                        <input type="checkbox" id="policy" class="mt-1 w-4 h-4 accent-[#00d1c1]">
+                        <label for="policy" class="text-[11px] leading-tight opacity-80 cursor-pointer">
+                            Отправляя заявку, вы соглашаетесь на нашу 
+                            <a href="#" class="underline hover:opacity-100">политику конфиденциальности</a>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+       
+        <div>
+            <div class="flex justify-between items-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#1a1a1a]">Популярные услуги в Косметологии</h2>
+                <div class="flex space-x-3">
+                    <button class="w-10 h-10 rounded-full bg-[#f0f7fb] flex items-center justify-center text-[#008cc6] ">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                    </button>
+                    <button class="w-10 h-10 rounded-full bg-[#008cc6] flex items-center justify-center text-white">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="lg:grid lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 overflow-x-auto">
+                
+               
+                <div class="flex flex-col bg-[#f0f7fb] rounded-sm overflow-hidden border border-transparent ">
+                    <div class="h-48 overflow-hidden">
+                        <img src="./image (38).png" class="w-full h-full object-cover" alt="МРТ">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-sm font-bold text-[#1a1a1a] mb-6 min-h-[40px]">
+                            Магнитно-резонансная томография (МРТ)
+                        </h3>
+                        <button class="mt-auto w-full bg-[#005581] hover:bg-[#004466] text-white py-3 rounded-sm text-sm font-medium transition-colors">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+
+                
+                <div class="flex flex-col bg-[#f0f7fb] rounded-sm overflow-hidden border border-transparent ">
+                    <div class="h-48 overflow-hidden">
+                        <img src="./image (39).png" class="w-full h-full object-cover" alt="Гастроскопия">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-sm font-bold text-[#1a1a1a] mb-6 min-h-[40px]">
+                            Гастроскопия
+                        </h3>
+                        <button class="mt-auto w-full bg-[#005581] hover:bg-[#004466] text-white py-3 rounded-sm text-sm font-medium transition-colors">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-[#f0f7fb] rounded-sm overflow-hidden border border-transparent">
+                    <div class="h-48 overflow-hidden">
+                        <img src="./image (40).png" class="w-full h-full object-cover" alt="Гинеколог">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-sm font-bold text-[#1a1a1a] mb-6 min-h-[40px]">
+                            Прием гинеколога
+                        </h3>
+                        <button class="mt-auto w-full bg-[#005581] hover:bg-[#004466] text-white py-3 rounded-sm text-sm font-medium transition-colors">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+
+              
+                <div class="flex flex-col bg-[#f0f7fb] rounded-sm overflow-hidden border border-transparent ">
+                    <div class="h-48 overflow-hidden">
+                        <img src="./image (41).png" class="w-full h-full object-cover" alt="Лабораторная диагностика">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-sm font-bold text-[#1a1a1a] mb-6 min-h-[40px]">
+                            Лабораторная диагностика
+                        </h3>
+                        <button class="mt-auto w-full bg-[#005581] hover:bg-[#004466] text-white py-3 rounded-sm text-sm font-medium transition-colors">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
 

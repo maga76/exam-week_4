@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="max-w-[1300px] m-auto">
+    <header class="max-w-[1350px] m-auto">
         <div class="flex justify-between items-center  p-[15px]">
             <img class="w-[148px] lg:w-[220px]" src="./src/images/logo (1).svg" alt="">
             <div class="lg:hidden flex gap-[23px] items-center">
@@ -42,12 +42,13 @@
             </div>
         </div>
         <div
-            class="hidden p-[10px] w-full lg:flex justify-center gap-[220px] items-center max-w-[1300px] m-auto shadow-[0px_0px_10px_#0000000A] rounded-[5px]">
-            <div class="flex gap-[38px] text-[#141414] font-bold items-center">
-                <p>Page 1 ▼</p>
-                <p>Page 2</p>
-                <p>Page 3</p>
-                <p>Page 4</p>
+            class="hidden p-[10px] w-full lg:flex justify-center gap-[220px] items-center max-w-[1350px] m-auto shadow-[0px_0px_10px_#0000000A] rounded-[5px]">
+            <div class="flex gap-[20px] text-[#141414] font-bold items-center">
+                <a href="./index.html">Page 1 ▼</a>
+                <a href="./src/page2.html">Page 2</a>
+                <a href="./src/page3.html">Page 3</a>
+                <a href="./src/page4.html">Page 4</a>
+                <p>Page 5</p>
                 <p>О центре ▼</p>
                 <p>Детство</p>
                 <p>Контакты</p>
@@ -64,21 +65,69 @@
     </header>
     <main>
         <section class="w-full  bg-gradient-to-r lg:pt-0 pt-[40px] from-[#00BAC6] to-[#0074B8]  mt-[20px]">
-            <div class="max-w-[1300px] m-auto flex flex-col lg:flex-row items-center justify-between">
+            <div class="max-w-[1350px] m-auto flex flex-col lg:flex-row items-center justify-between">
                 <aside class="flex flex-col  justify-center gap-[20px] lg:gap-[35px] text-[white]">
-                    <h1 class="font-semibold text-[40px] lg:text-[60px] w-[350px] lg:w-[550px] leading-tight">Позаботьтесь о своём здоровье</h1>
-                    <p class="text-[16px] lg:w-[550px] lg:text-[20px] w-[350px]">Осуществляем комплексное медицинское обслуживание населения: консультации и амбулаторное лечение у специалистов всех направлений, медицинские обследования и диагностические процедуры.</p>
-                    <button class="text-[white] rounded-[5px] w-[229px] h-[60px] bg-[#00C6BF] font-semibold text-[20px]">Запись наприём</button>
+                    <h1 class="font-semibold text-[40px] lg:text-[60px] w-[350px] lg:w-[550px] leading-tight">
+                        Позаботьтесь о своём здоровье</h1>
+                    <p class="text-[16px] lg:w-[550px] lg:text-[20px] w-[350px]">Осуществляем комплексное медицинское
+                        обслуживание населения: консультации и амбулаторное лечение у специалистов всех направлений,
+                        медицинские обследования и диагностические процедуры.</p>
+                    <button
+                        class="text-[white] rounded-[5px] w-[229px] h-[60px] bg-[#00C6BF] font-semibold text-[20px]">Запись
+                        наприём</button>
                 </aside>
-                <div style="background-image: url(./src/images/svg.png);" class="hidden lg:block bg-cover h-[672px] w-[716px]">
-                <img class="mt-[40px]" src="./src/images/image (5).png" alt="">
+                <div style="background-image: url(./src/images/svg.png);"
+                    class="hidden lg:block bg-cover h-[672px] w-[716px]">
+                    <img class="mt-[40px]" src="./src/images/image (5).png" alt="">
                 </div>
-                <div style=" background-image: url(./src/images/svg\ \(1\).png);" class="lg:hidden bg-no-repeat mt-[30px] bg-center h-[320px] w-[400px]">
-                <img class="m-auto  w-[305px]" src="./src/images/image (5).png" alt="">
+                <div style=" background-image: url(./src/images/svg\ \(1\).png);"
+                    class="lg:hidden bg-no-repeat mt-[30px] bg-center h-[320px] w-[100%]">
+                    <img class="m-auto  w-[305px]" src="./src/images/image (5).png" alt="">
                 </div>
             </div>
         </section>
-
+        <section class="relative bottom-[40px] max-w-[1350px] m-auto flex flex-wrap items-center gap-[20px] justify-center lg:justify-between">
+            <div class="lg:w-[306px] lg:h-[446px] text-[#141414] bg-[#F0F6F9] flex flex-col justify-center pl-[30px] gap-[25px] w-[350px] h-[480px] rounded-[5px]">
+                <h1 class="text-[25px] lg:text-[22px] font-bold">Направления</h1>
+                <div class="border-b-[2px] lg:w-[246px] w-[281px] border-[#C6D9E2]"></div>
+                <p class="text-[20px] lg:text-[18px]">Акушерство</p>
+                <p class="text-[20px] lg:text-[18px]">Косметология</p>
+                <p class="text-[20px] lg:text-[18px]">Хирургия</p>
+                <p class="text-[20px] lg:text-[18px]">Мануальная терапия</p>
+                <p class="text-[20px] lg:text-[18px]">Психотерапия</p>
+                 <button class="text-[white] rounded-[5px] lg:w-[246px] w-[281px] h-[61px] lg:h-[54px] bg-[#00578A] font-bold">Все услуги</button>
+            </div>
+            <div class="lg:w-[306px] lg:h-[446px] text-[#141414] bg-[#F0F6F9] flex flex-col justify-center pl-[30px] gap-[25px] w-[350px] h-[480px] rounded-[5px]">
+                <h1 class="text-[25px] lg:text-[22px] font-bold">Диагностика</h1>
+                <div class="border-b-[2px] lg:w-[246px] w-[281px] border-[#C6D9E2]"></div>
+                <p class="text-[20px] lg:text-[18px]">МРТ</p>
+                <p class="text-[20px] lg:text-[18px]">КТ</p>
+                <p class="text-[20px] lg:text-[18px]">УЗИ</p>
+                <p class="text-[20px] lg:text-[18px]">Рентген</p>
+                <p class="text-[20px] lg:text-[18px]">Гастроскопия</p>
+                 <button class="text-[white] rounded-[5px] lg:w-[246px] w-[281px] h-[61px] lg:h-[54px] bg-[#00578A] font-bold">Вся диагностика</button>
+            </div>
+            <div class="lg:w-[306px] lg:h-[446px] text-[#141414] bg-[#F0F6F9] flex flex-col justify-center pl-[30px] gap-[25px] w-[350px] h-[480px] rounded-[5px]">
+                <h1 class="text-[25px] lg:text-[22px] font-bold">Врачи</h1>
+                <div class="border-b-[2px] lg:w-[246px] w-[281px] border-[#C6D9E2]"></div>
+                <p class="text-[20px] lg:text-[18px]">Стоматолог</p>
+                <p class="text-[20px] lg:text-[18px]">Эндокринолог</p>
+                <p class="text-[20px] lg:text-[18px]">Хирург</p>
+                <p class="text-[20px] lg:text-[18px]">Терапевт</p>
+                <p class="text-[20px] lg:text-[18px]">Невролог</p>
+                 <button class="text-[white] rounded-[5px] lg:w-[246px] w-[281px] h-[61px] lg:h-[54px] bg-[#00578A] font-bold">Все врачи</button>
+            </div>
+            <div class="lg:w-[306px] lg:h-[446px] text-[#141414] bg-[#F0F6F9] flex flex-col justify-center pl-[30px] gap-[25px] w-[350px] h-[480px] rounded-[5px]">
+                <h1 class="text-[25px] lg:text-[22px] font-bold">Детство</h1>
+                <div class="border-b-[2px] lg:w-[246px] w-[281px] border-[#C6D9E2]"></div>
+                <p class="text-[20px] lg:text-[18px]">Педиатр</p>
+                <p class="text-[20px] lg:text-[18px]">Стоматолог</p>
+                <p class="text-[20px] lg:text-[18px]">Дерматолог</p>
+                <p class="text-[20px] lg:text-[18px]">Офтальмолог</p>
+                <p class="text-[20px] lg:text-[18px]">Логопед</p>
+                 <button class="text-[white] rounded-[5px] lg:w-[246px] w-[281px] h-[61px] lg:h-[54px] bg-[#00578A] font-bold">Все врачи</button>
+            </div>
+         </section>
     </main>
 </body>
 

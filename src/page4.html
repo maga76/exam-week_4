@@ -503,7 +503,7 @@
     </div>
 </section>
 <section class="w-full bg-white py-16 font-sans">
-    <div class="max-w-[1300px] mx-auto px-4">
+    <div class="max-w-[1400px] mx-auto px-4">
 
         <div class="mb-20">
             <div class="flex justify-between items-center mb-10">
@@ -573,6 +573,45 @@
 
     </div>
 </section>
+ <div  class="w-full max-w-[1400px] m-auto lg:h-[400px]  bg-gradient-to-r from-[#00b5ad] to-[#007fb1] rounded-[20px] p-8 md:p-12 mb-20 text-white relative overflow-hidden">
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between mb-10 gap-6 mt-[40px]">
+                <h2 class="text-3xl md:text-4xl font-bold">Записаться на приём</h2>
+                <p class="text-sm md:text-base opacity-90 max-w-[250px]">
+                    Оставьте заявку и мы свяжемся с вами в ближайшее время
+                </p>
+            </div>
+
+            <form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+               
+                <div class="space-y-4">
+                    <select class="w-full bg-white text-gray-500 py-4 px-6 rounded-md outline-none appearance-none cursor-pointer">
+                        <option>Выберете направление</option>
+                    </select>
+                    <select class="w-full bg-white text-gray-500 py-4 px-6 rounded-md outline-none appearance-none cursor-pointer">
+                        <option>Выберете врача</option>
+                    </select>
+                </div>
+
+                <div class="space-y-4">
+                    <input type="text" placeholder="Ваше имя" class="w-full bg-white text-gray-800 py-4 px-6 rounded-md outline-none placeholder:text-gray-400">
+                    <input type="tel" placeholder="Ваш телефон" class="w-full bg-white text-gray-800 py-4 px-6 rounded-md outline-none placeholder:text-gray-400">
+                </div>
+
+               
+                <div class="flex flex-col justify-between">
+                    <button type="submit" class="w-full bg-[#00d1c1] text-white font-bold py-4 px-6 rounded-md shadow-lg">
+                        Оставить заявку
+                    </button>
+                    <div class="mt-4 flex items-start gap-3">
+                        <input type="checkbox" id="policy" class="mt-1 w-4 h-4 accent-[#00d1c1]">
+                        <label for="policy" class="text-[11px] leading-tight opacity-80 cursor-pointer">
+                            Отправляя заявку, вы соглашаетесь на нашу 
+                            <a href="#" class="underline hover:opacity-100">политику конфиденциальности</a>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
 </body>
 
 </html>

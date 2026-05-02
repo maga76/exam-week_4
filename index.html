@@ -568,12 +568,12 @@
                 class="lg:flex justify-around items-center gap-[10px] lg:justify-between ml-[15px] lg:ml-[0px] mt-[50px] lg:mt-[70px]">
                 <p class="text-[30px] lg:text-[48px] font-semibold">Лицензии и сертификаты</p>
                 <div>
-                    <img src="./src/images/Slider Buttons.png" alt="">
+                    <img class="mt-[10px] lg:mt-0" src="./src/images/Slider Buttons.png" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="flex justify-between mt-[50px]">
+        <div class="flex justify-center lg:justify-between mt-[50px]">
             <div class="w-[305px] h-[456px] ">
                 <div class="w-[305px] h-[414px] rounded-[5px] ] border-[2px] border-solid border-[#BEE1F6] p-[20px]">
                     <img src="./src/images/image (13).png" alt="">
@@ -605,8 +605,33 @@
             class="lg:flex justify-between items-center gap-[10px] lg:gap-[0px] ml-[15px] lg:ml-[0px] mt-[50px] lg:mt-[130px]">
             <p class="text-[30px] lg:text-[48px] font-semibold">Как нас найти</p>
         </div>
-        <img class="mt-[30px]" src="./src/images/image (12).png" alt="">
+        <img class="hidden lg:block mt-[30px]" src="./src/images/image (12).png" alt="">
+        <img class="lg:hidden mt-[20px] m-auto" src="./src/images/map.png" alt="">
     </section>
+    <section class="rounded-[14px] mt-[50px] max-w-[1350px] m-auto bg-gradient-to-r  pt-[30px] pb-[70px] lg:pt-[70px] from-[#00BAC6] to-[#0074B8]  mt-[2 0px]">
+            <div class="lg:flex  items-center lg:pl-0 pl-[20px] justify-around mb-[50px]">
+                <h1 class="text-[white] lg:text-[48px] font-semibold text-[32px] w-[200px] lg:w-[536px]">Записаться на приём</h1>
+            <p class="text-[white] text-[20px] w-[330px]">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+            </div>
+            <div class="flex gap-[20px] flex-wrap items-center justify-center">
+                <div class=" rounded-[5px] bg-[white] flex justify-center items-center gap-[115px] w-[360px] h-[70px]">
+                    <p class="font-bold text-[16px] text-[#141414]">Выберете направление</p>
+                    <img src="./src/images/Chevron Down.png" alt="">
+                </div>
+                <div class="lg:hidden  rounded-[5px] bg-[white] flex justify-center items-center gap-[158px] w-[360px] h-[70px]">
+                    <p class="font-bold text-[16px] text-[#141414]">Выберете врача</p>
+                    <img src="./src/images/Chevron Down.png" alt=""> </div>
+                <input type="text" placeholder="Ваше имя" class=" rounded-[5px] bg-[white] pl-[20px] w-[360px] h-[70px]">
+                <input type="text" placeholder="Ваш телефон" class="lg:hidden rounded-[5px] bg-[white] pl-[20px] w-[360px] h-[70px]">
+                <button class="hidden lg:block rounded-[5px] text-[18px] bg-[#00C6BF] w-[360px] h-[70px] text-[white]">Оставить заявку</button>
+                <div class="hidden  rounded-[5px] bg-[white] lg:flex justify-center items-center gap-[158px] w-[360px] h-[70px]">
+                    <p class="font-bold text-[16px] text-[#141414]">Выберете врача</p>
+                    <img src="./src/images/Chevron Down.png" alt=""> </div>
+                <input type="text" placeholder="Ваш телефон" class="hidden lg:block rounded-[5px] bg-[white] pl-[20px] w-[360px] h-[70px]">
+                <button class="lg:hidden rounded-[5px] text-[18px] bg-[#00C6BF] w-[360px] h-[70px] text-[white]">Оставить заявку</button>
+                <p class="text-[#141414] w-[355px] text-[white] text-[14px]">Отправляя заявку, вы соглашаетесь на нашу политику конфиденциальности</p>
+            </div>
+         </section>
     </main>
 </body>
 
